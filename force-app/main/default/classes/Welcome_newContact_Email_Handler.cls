@@ -15,7 +15,7 @@ public with sharing class Welcome_newContact_Email_Handler {
            }
         }
         if(!emailsMessage.isEmpty()){
-            Messaging.sendEmail(emailsMessage);
+            Messaging.sendEmail(emailsMessage); 
         }
     }
 }
