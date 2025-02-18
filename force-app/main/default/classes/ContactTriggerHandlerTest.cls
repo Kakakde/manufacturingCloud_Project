@@ -1,7 +1,7 @@
 @isTest
 private class ContactTriggerHandlerTest {
     @isTest
-    static void testSendWelcomeEmails() {
+    static void testSendWelcomeEmails() { 
         // Create a test Contact
         Contact testContact = new Contact(
             FirstName = 'Test',
